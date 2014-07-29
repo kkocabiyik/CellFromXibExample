@@ -13,7 +13,6 @@
 		FB4F1D421988298F00BE4F14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D401988298F00BE4F14 /* InfoPlist.strings */; };
 		FB4F1D441988298F00BE4F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F1D431988298F00BE4F14 /* main.m */; };
 		FB4F1D481988298F00BE4F14 /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F1D471988298F00BE4F14 /* CEAppDelegate.m */; };
-		FB4F1D4B1988298F00BE4F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D491988298F00BE4F14 /* Main.storyboard */; };
 		FB4F1D4E1988298F00BE4F14 /* CEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F1D4D1988298F00BE4F14 /* CEViewController.m */; };
 		FB4F1D501988298F00BE4F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D4F1988298F00BE4F14 /* Images.xcassets */; };
 		FB4F1D571988298F00BE4F14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4F1D561988298F00BE4F14 /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		FB4F1D591988298F00BE4F14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4F1D3B1988298F00BE4F14 /* UIKit.framework */; };
 		FB4F1D611988298F00BE4F14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D5F1988298F00BE4F14 /* InfoPlist.strings */; };
 		FB4F1D631988298F00BE4F14 /* CellFromXibExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F1D621988298F00BE4F14 /* CellFromXibExampleTests.m */; };
+		FB4F1D6D19882A3900BE4F14 /* CEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D6C19882A3900BE4F14 /* CEViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		FB4F1D451988298F00BE4F14 /* CellFromXibExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellFromXibExample-Prefix.pch"; sourceTree = "<group>"; };
 		FB4F1D461988298F00BE4F14 /* CEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEAppDelegate.h; sourceTree = "<group>"; };
 		FB4F1D471988298F00BE4F14 /* CEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
-		FB4F1D4A1988298F00BE4F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB4F1D4C1988298F00BE4F14 /* CEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEViewController.h; sourceTree = "<group>"; };
 		FB4F1D4D1988298F00BE4F14 /* CEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEViewController.m; sourceTree = "<group>"; };
 		FB4F1D4F1988298F00BE4F14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		FB4F1D5E1988298F00BE4F14 /* CellFromXibExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellFromXibExampleTests-Info.plist"; sourceTree = "<group>"; };
 		FB4F1D601988298F00BE4F14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB4F1D621988298F00BE4F14 /* CellFromXibExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellFromXibExampleTests.m; sourceTree = "<group>"; };
+		FB4F1D6C19882A3900BE4F14 /* CEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CEViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				FB4F1D461988298F00BE4F14 /* CEAppDelegate.h */,
 				FB4F1D471988298F00BE4F14 /* CEAppDelegate.m */,
-				FB4F1D491988298F00BE4F14 /* Main.storyboard */,
 				FB4F1D4C1988298F00BE4F14 /* CEViewController.h */,
 				FB4F1D4D1988298F00BE4F14 /* CEViewController.m */,
+				FB4F1D6C19882A3900BE4F14 /* CEViewController.xib */,
 				FB4F1D4F1988298F00BE4F14 /* Images.xcassets */,
 				FB4F1D3E1988298F00BE4F14 /* Supporting Files */,
 			);
@@ -231,7 +231,7 @@
 			files = (
 				FB4F1D501988298F00BE4F14 /* Images.xcassets in Resources */,
 				FB4F1D421988298F00BE4F14 /* InfoPlist.strings in Resources */,
-				FB4F1D4B1988298F00BE4F14 /* Main.storyboard in Resources */,
+				FB4F1D6D19882A3900BE4F14 /* CEViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +281,6 @@
 				FB4F1D411988298F00BE4F14 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FB4F1D491988298F00BE4F14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB4F1D4A1988298F00BE4F14 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FB4F1D5F1988298F00BE4F14 /* InfoPlist.strings */ = {

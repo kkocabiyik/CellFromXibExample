@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CEViewController : UIViewController
+@interface CEViewController : UIViewController <UITableViewDataSource , UITableViewDelegate>
+
+@property (strong, nonatomic) NSArray *itemsArray;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

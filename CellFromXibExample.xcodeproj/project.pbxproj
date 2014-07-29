@@ -21,6 +21,8 @@
 		FB4F1D611988298F00BE4F14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D5F1988298F00BE4F14 /* InfoPlist.strings */; };
 		FB4F1D631988298F00BE4F14 /* CellFromXibExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F1D621988298F00BE4F14 /* CellFromXibExampleTests.m */; };
 		FB4F1D6D19882A3900BE4F14 /* CEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D6C19882A3900BE4F14 /* CEViewController.xib */; };
+		FB4F1D71198831B200BE4F14 /* CETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F1D6F198831B200BE4F14 /* CETableViewCell.m */; };
+		FB4F1D72198831B200BE4F14 /* CETableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4F1D70198831B200BE4F14 /* CETableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		FB4F1D601988298F00BE4F14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB4F1D621988298F00BE4F14 /* CellFromXibExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellFromXibExampleTests.m; sourceTree = "<group>"; };
 		FB4F1D6C19882A3900BE4F14 /* CEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CEViewController.xib; sourceTree = "<group>"; };
+		FB4F1D6E198831B200BE4F14 /* CETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CETableViewCell.h; sourceTree = "<group>"; };
+		FB4F1D6F198831B200BE4F14 /* CETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CETableViewCell.m; sourceTree = "<group>"; };
+		FB4F1D70198831B200BE4F14 /* CETableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CETableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				FB4F1D6C19882A3900BE4F14 /* CEViewController.xib */,
 				FB4F1D4F1988298F00BE4F14 /* Images.xcassets */,
 				FB4F1D3E1988298F00BE4F14 /* Supporting Files */,
+				FB4F1D6E198831B200BE4F14 /* CETableViewCell.h */,
+				FB4F1D6F198831B200BE4F14 /* CETableViewCell.m */,
+				FB4F1D70198831B200BE4F14 /* CETableViewCell.xib */,
 			);
 			path = CellFromXibExample;
 			sourceTree = "<group>";
@@ -232,6 +240,7 @@
 				FB4F1D501988298F00BE4F14 /* Images.xcassets in Resources */,
 				FB4F1D421988298F00BE4F14 /* InfoPlist.strings in Resources */,
 				FB4F1D6D19882A3900BE4F14 /* CEViewController.xib in Resources */,
+				FB4F1D72198831B200BE4F14 /* CETableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 				FB4F1D481988298F00BE4F14 /* CEAppDelegate.m in Sources */,
 				FB4F1D441988298F00BE4F14 /* main.m in Sources */,
 				FB4F1D4E1988298F00BE4F14 /* CEViewController.m in Sources */,
+				FB4F1D71198831B200BE4F14 /* CETableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
